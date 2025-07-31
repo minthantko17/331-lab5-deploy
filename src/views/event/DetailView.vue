@@ -6,7 +6,7 @@ import { storeToRefs } from 'pinia'
 
 const props = defineProps<{
     event: Event,
-    id: String
+    id: string
 }>()
 const {event} = toRefs(props)
 const store = useMessageStore()
@@ -15,7 +15,7 @@ const { detailMessage } = storeToRefs(store)
 </script>
 
 <template>
-    <div class="animation-fade" v-if="detailMessage">
+    <div class="animate-fade" v-if="detailMessage">
         <h4>{{ detailMessage }}</h4>
     </div>
 

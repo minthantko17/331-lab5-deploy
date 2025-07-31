@@ -14,7 +14,7 @@ export default {
         sans: ['Avenir', 'Helvetica', 'Arial', 'san-serif']
       },
       animation: {
-        fade: 'yellow 3s ease-in-out;'
+        fade: 'yellowFade 3s ease-in-out'
       },
       keyframes: {
         yellowFade: {
